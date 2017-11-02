@@ -14,6 +14,8 @@
 		4201B3841FABD39400CBD527 /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3831FABD39400CBD527 /* Field_SurveyTests.swift */; };
 		4201B38F1FABD39400CBD527 /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B38E1FABD39400CBD527 /* Field_SurveyUITests.swift */; };
 		4201B3A01FABDA1000CBD527 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4201B39F1FABDA1000CBD527 /* field_observations.json */; };
+		4201B3A21FABDBC600CBD527 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A11FABDBC600CBD527 /* Classification.swift */; };
+		4201B3A41FABE06500CBD527 /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A31FABE06500CBD527 /* Observation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4201B38E1FABD39400CBD527 /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
 		4201B3901FABD39400CBD527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4201B39F1FABDA1000CBD527 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		4201B3A11FABDBC600CBD527 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		4201B3A31FABE06500CBD527 /* Observation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				4201B39F1FABDA1000CBD527 /* field_observations.json */,
+				4201B3A11FABDBC600CBD527 /* Classification.swift */,
+				4201B3A31FABE06500CBD527 /* Observation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4201B36F1FABD39400CBD527 /* AppDelegate.swift in Sources */,
+				4201B3A41FABE06500CBD527 /* Observation.swift in Sources */,
+				4201B3A21FABDBC600CBD527 /* Classification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
