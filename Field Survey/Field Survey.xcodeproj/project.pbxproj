@@ -13,6 +13,7 @@
 		4201B3791FABD39400CBD527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4201B3771FABD39400CBD527 /* LaunchScreen.storyboard */; };
 		4201B3841FABD39400CBD527 /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3831FABD39400CBD527 /* Field_SurveyTests.swift */; };
 		4201B38F1FABD39400CBD527 /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B38E1FABD39400CBD527 /* Field_SurveyUITests.swift */; };
+		4201B3A01FABDA1000CBD527 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4201B39F1FABDA1000CBD527 /* field_observations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4201B38A1FABD39400CBD527 /* Field SurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4201B38E1FABD39400CBD527 /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
 		4201B3901FABD39400CBD527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4201B39F1FABDA1000CBD527 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		4201B36D1FABD39400CBD527 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				4201B39C1FABD95700CBD527 /* Model */,
 				4201B36E1FABD39400CBD527 /* AppDelegate.swift */,
 				4201B3721FABD39400CBD527 /* Main.storyboard */,
 				4201B3751FABD39400CBD527 /* Assets.xcassets */,
@@ -120,6 +123,14 @@
 				4201B3901FABD39400CBD527 /* Info.plist */,
 			);
 			path = "Field SurveyUITests";
+			sourceTree = "<group>";
+		};
+		4201B39C1FABD95700CBD527 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4201B39F1FABDA1000CBD527 /* field_observations.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4201B3791FABD39400CBD527 /* LaunchScreen.storyboard in Resources */,
+				4201B3A01FABDA1000CBD527 /* field_observations.json in Resources */,
 				4201B3761FABD39400CBD527 /* Assets.xcassets in Resources */,
 				4201B3741FABD39400CBD527 /* Main.storyboard in Resources */,
 			);
