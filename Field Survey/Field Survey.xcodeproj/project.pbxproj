@@ -18,6 +18,9 @@
 		4201B3A41FABE06500CBD527 /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A31FABE06500CBD527 /* Observation.swift */; };
 		4201B3A61FABE32600CBD527 /* ObservationsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A51FABE32600CBD527 /* ObservationsJSONParser.swift */; };
 		4201B3A81FABEBC600CBD527 /* ObservationsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A71FABEBC600CBD527 /* ObservationsJSONLoader.swift */; };
+		4201B3AA1FABF10800CBD527 /* ObservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A91FABF10800CBD527 /* ObservationsViewController.swift */; };
+		4201B3AC1FABF14500CBD527 /* ObservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3AB1FABF14500CBD527 /* ObservationDetailViewController.swift */; };
+		4201B3AE1FABFBC300CBD527 /* ObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3AD1FABFBC300CBD527 /* ObservationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		4201B3A31FABE06500CBD527 /* Observation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
 		4201B3A51FABE32600CBD527 /* ObservationsJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsJSONParser.swift; sourceTree = "<group>"; };
 		4201B3A71FABEBC600CBD527 /* ObservationsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsJSONLoader.swift; sourceTree = "<group>"; };
+		4201B3A91FABF10800CBD527 /* ObservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsViewController.swift; sourceTree = "<group>"; };
+		4201B3AB1FABF14500CBD527 /* ObservationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationDetailViewController.swift; sourceTree = "<group>"; };
+		4201B3AD1FABFBC300CBD527 /* ObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				4201B3751FABD39400CBD527 /* Assets.xcassets */,
 				4201B3771FABD39400CBD527 /* LaunchScreen.storyboard */,
 				4201B37A1FABD39400CBD527 /* Info.plist */,
+				4201B3A91FABF10800CBD527 /* ObservationsViewController.swift */,
+				4201B3AB1FABF14500CBD527 /* ObservationDetailViewController.swift */,
+				4201B3AD1FABFBC300CBD527 /* ObservationTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -280,10 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4201B3AE1FABFBC300CBD527 /* ObservationTableViewCell.swift in Sources */,
+				4201B3AC1FABF14500CBD527 /* ObservationDetailViewController.swift in Sources */,
 				4201B36F1FABD39400CBD527 /* AppDelegate.swift in Sources */,
 				4201B3A61FABE32600CBD527 /* ObservationsJSONParser.swift in Sources */,
 				4201B3A41FABE06500CBD527 /* Observation.swift in Sources */,
 				4201B3A21FABDBC600CBD527 /* Classification.swift in Sources */,
+				4201B3AA1FABF10800CBD527 /* ObservationsViewController.swift in Sources */,
 				4201B3A81FABEBC600CBD527 /* ObservationsJSONLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
