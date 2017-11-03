@@ -37,6 +37,8 @@ class ObservationDetailViewController: UIViewController {
         } else {
             dateLabel.text = ""
         }
+        
+        self.title = "Observation"
 
         // Do any additional setup after loading the view.
     }

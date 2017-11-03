@@ -20,6 +20,8 @@ class ObservationsViewController: UIViewController, UITableViewDelegate, UITable
         
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
+        
+        self.title = "Field Survey"
 
         // Do any additional setup after loading the view.
     }
