@@ -17,6 +17,7 @@
 		4201B3A21FABDBC600CBD527 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A11FABDBC600CBD527 /* Classification.swift */; };
 		4201B3A41FABE06500CBD527 /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A31FABE06500CBD527 /* Observation.swift */; };
 		4201B3A61FABE32600CBD527 /* ObservationsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A51FABE32600CBD527 /* ObservationsJSONParser.swift */; };
+		4201B3A81FABEBC600CBD527 /* ObservationsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201B3A71FABEBC600CBD527 /* ObservationsJSONLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4201B3A11FABDBC600CBD527 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 		4201B3A31FABE06500CBD527 /* Observation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
 		4201B3A51FABE32600CBD527 /* ObservationsJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsJSONParser.swift; sourceTree = "<group>"; };
+		4201B3A71FABEBC600CBD527 /* ObservationsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsJSONLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				4201B3A11FABDBC600CBD527 /* Classification.swift */,
 				4201B3A31FABE06500CBD527 /* Observation.swift */,
 				4201B3A51FABE32600CBD527 /* ObservationsJSONParser.swift */,
+				4201B3A71FABEBC600CBD527 /* ObservationsJSONLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				4201B3A61FABE32600CBD527 /* ObservationsJSONParser.swift in Sources */,
 				4201B3A41FABE06500CBD527 /* Observation.swift in Sources */,
 				4201B3A21FABDBC600CBD527 /* Classification.swift in Sources */,
+				4201B3A81FABEBC600CBD527 /* ObservationsJSONLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
