@@ -100,6 +100,9 @@
                         <viewLayoutGuide key="safeArea" id="Toz-er-xAJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="wbb-R1-H4j"/>
+                    <connections>
+                        <outlet property="observationsTableView" destination="OQZ-Bf-UCw" id="y1Q-Rg-QJW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vSG-YJ-6gy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
